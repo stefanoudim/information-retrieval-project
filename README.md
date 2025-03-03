@@ -2,7 +2,7 @@
 ## What it does
 It retrieves research papers from arXiv based on user keywords, using one of three different retrieval algorithms.
 ## How it works
-Through a simple UI, the user is able to search the corpus (which consists of 50 documents) for documents that are relevant to their desired keywords. Additionally, the user is able to choose one of three different retrieval algorithms:
+Through a simple UI, the user is able to search the corpus (which consists of 50 documents) for papers relevant to their desired keywords. Additionally, the user is able to choose one of three different retrieval algorithms:
 1. Boolean Retrieval
 2. Vector Space Model (VSM)
 3. Okapi BM25
