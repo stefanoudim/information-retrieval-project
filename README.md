@@ -29,7 +29,7 @@ The processed text is saved in `processed_output.csv`, where each word appears i
 ### index.py
 This file creates the inverted index. All terms in `processed_output.csv` are inserted into a dictionary, where each term is mapped to a list of document numbers (1-50) in which it appears. Finally, the program calls `search.py`, passing the query, the inverted index and the selected algorithm. 
 ### search.py
-The code in this file processes the query in the same manner as the text in output.csv, following identical preprocessing steps. Finally, the program runs the algorithm that was selected by the user, printing the title, authors, abstract and submission date of each relevant document to the terminal.
+The code in this file processes the query in the same manner as the text in `output.csv`, following identical preprocessing steps. Finally, the program runs the algorithm that was selected by the user, printing the title, authors, abstract and submission date of each relevant document to the terminal.
 ## Important notes ⚠
 - Run only the `interface.py` file. Running other files separately will cause errors.
 - If you opt to use the Boolean Retrieval algorithm and wish to include more that one word in your query you will have to use the words 'AND' or 'OR', while there's also the option of using the word 'NOT'. This algorithm returns **every** document that contains the query term(s), whereas VSM and Okapi BM25 will return five and three documents respectively every time (those with the highest similarity to your query).
