@@ -19,7 +19,7 @@ This file searches for documents on arXiv based on the user's search words. It t
 
 The data is written to a file named `output.csv` which contains 50 rows (one for each document) and 4 columns (one for each data element). Then, the program calls `processing.py`, passing only the query and the selected algorithm, as the search words are no longer needed.
 ### processing.py
-This file is responsible for processing the text in `output.csv` file. The steps include:
+This file is responsible for processing the text in `output.csv`. The steps include:
 + Converting all letters to lowercase
 + Tokenization (splitting text into words)
 + Removing punctuation marks and stopwords
