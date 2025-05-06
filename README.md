@@ -1,6 +1,6 @@
 # About this project
 ## What it does
-It retrieves research papers from arXiv based on user keywords, using one of three different retrieval algorithms available.
+It retrieves research papers from [arXiv](https://arxiv.org) based on user keywords, using one of three different retrieval algorithms available.
 ## How it works
 Through a simple UI, the user is able to search the corpus (which consists of 50 documents) for papers relevant to their desired keywords. Additionally, the user is able to choose one of three different retrieval algorithms:
 1. Boolean Retrieval
